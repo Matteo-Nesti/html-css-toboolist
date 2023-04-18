@@ -10,7 +10,7 @@
 /* generics */
 
 body {
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
 }
 h1 {
     display: inline;
@@ -26,6 +26,15 @@ a {
     text-align: center;
     line-height: 35px;
     border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 1px 0 10px 0;
+    padding-bottom: 10px;
 }
 
 
@@ -48,7 +57,7 @@ a {
 }
 
 #adder-container {
-    margin: 10px 0;
+    margin: 10px 0 0 0;
     padding-left: 40px;
     background-color: #fff;
     border-radius: 5px 5px 0 0;
@@ -58,13 +67,89 @@ a {
 
 /* adder button */
 
-#add-task {
+#add-task-link {
     background-color: #1e90ff;
     color: #fff;
     border: #1e90ff solid 2px;
 }
 
-#add-section {
+#add-section-link {
     color: #878787;
     border: solid 2px #878787;
+}
+
+/* main list */
+
+#main-section-list {
+    background-color: #fff;
+    padding-left: 40px;
+    border-radius: 0 0 5px 5px;
+}
+
+.down-pointing {
+    font-size: 0.6rem;
+    vertical-align: middle;
+}
+
+.list-title {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 30px 0 15px 0;
+}
+
+.confirms-elements {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+}
+
+.check-element {
+    color: green;
+    border: solid 1px green;
+}
+
+.cross-element {
+    color: red;
+    border: solid 1px red;
+}
+
+.tag-list {
+    display: inline-block;
+    height: 22px;
+    width: 70px;
+    text-align: center;
+    line-height: 22px;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* all tag-color */
+
+.editorial-tag {
+    background-color: #1e90ff;
+}
+
+.goals-tag {
+background-color:#9c72e4 ;
+}
+
+.recruiting-tag {
+    background-color: #64c0a9;
+}
+
+.mobile-tag {
+    background-color:#f29e33 ;
+}
+
+.website-tag {
+    background-color: #d863a1;
+}
+
+.sales-tag {
+    background-color: #b0c926;
 }
