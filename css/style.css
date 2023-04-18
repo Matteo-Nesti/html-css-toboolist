@@ -18,12 +18,21 @@ h1 {
     vertical-align: middle;
     font-weight: 900;
 }
+a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+}
 
 
 /* header*/ 
 
 #main-header {
-    background-color: white;
+    background-color: #fff;
     padding: 10px;
 }
 
@@ -34,5 +43,28 @@ h1 {
 /* main */
 
 .container {
-    width: 1080px;
+    margin: 0 auto;
+    width: 720px;
+}
+
+#adder-container {
+    margin: 10px 0;
+    padding-left: 40px;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* adder button */
+
+#add-task {
+    background-color: #1e90ff;
+    color: #fff;
+    border: #1e90ff solid 2px;
+}
+
+#add-section {
+    color: #878787;
+    border: solid 2px #878787;
 }
